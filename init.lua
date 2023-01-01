@@ -1,0 +1,7 @@
+require 'usr.options'
+require 'usr.packer'
+require 'usr.colorscheme'
+require 'usr.lsp'
+require 'usr.keymap'
+require 'usr.cmp'
+require 'usr.nls'
