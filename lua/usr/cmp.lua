@@ -43,13 +43,10 @@ cmp.setup({
                 fallback()
             end
         end, { "i", "s" }),},
-    sources = cmp.config.sources({
-        { name = 'nvim_lsp' },
-        { name = 'luasnip' },
-        { name = 'orgmode' },
-    }, {
-        { name = 'buffer' },
-    })
+    sources = cmp.config.sources(
+        {{ name = 'nvim_lsp' }, { name = 'luasnip' }},
+        {{ name = 'buffer' }}
+    )
 })
 
 -- Set configuration for specific filetype.

@@ -16,6 +16,9 @@ local options = {
     -- Completion box pop-up size
     pumheight = 12,
     pumwidth = 60,
+
+    -- Disable swap
+    swapfile = false,
 }
 
 for key, val in pairs(options) do
